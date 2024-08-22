@@ -1,5 +1,5 @@
 import gsap from "gsap";
-import { heroVideo, smallHeroVideo, posterImg } from "../utils";
+import { heroVideo, smallHeroVideo } from "../utils";
 import { useGSAP } from "@gsap/react";
 import { useEffect, useState } from "react";
 
@@ -51,8 +51,8 @@ const Hero = () => {
             autoPlay
             muted
             playsInline={true}
-            poster={posterImg}
-            key={}
+         
+            key={videoSrc}
           >
             <source src={videoSrc} type="video/mp4" />
           </video>
