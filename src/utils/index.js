@@ -28,7 +28,7 @@ import explore1 from "/assets/images/explore1.jpg";
 import explore2 from "/assets/images/explore2.jpg";
 import chip from "/assets/images/chip.jpeg";
 import frame from "/assets/images/frame.png";
-import posture from "/assets/images/posture.gif";
+import posture from "/assets/images/posture.jpg";
 
 export const heroVideo = hmv;
 export const smallHeroVideo = smallmv;
