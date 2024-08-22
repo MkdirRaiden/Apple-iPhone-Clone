@@ -7,12 +7,12 @@
     <title>Apple iPhone Clone</title>
   </head>
   <style media="screen" type="text/css">
-   body{
+    body{
       padding: 0;
       margin: 0;
       background-color: black;
     }
-    #root:not(:empty) + .container {
+    #root{
       display: none;
     }
     .container{
@@ -88,9 +88,14 @@
     }
   
   </style>
+    <script type="text/javascript">
+    window.onload = function(){
+      document.getElementById('preloader').style.display = 'none';
+      document.getElementById('root').style.display = 'block';
+    }
+  </script>
   <body>
-    <div id="root">
-      <div class="container">
+      <div id="preloader" class="container">
         <div class="sk-cube-grid">
           <div class="sk-cube sk-cube1"></div>
           <div class="sk-cube sk-cube2"></div>
@@ -103,6 +108,7 @@
           <div class="sk-cube sk-cube9"></div>
         </div>
       </div>
+    <div id="root">
     </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
