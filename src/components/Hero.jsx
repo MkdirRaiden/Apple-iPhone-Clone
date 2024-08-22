@@ -52,7 +52,7 @@ const Hero = () => {
             muted
             playsInline={true}
             poster={posterImg}
-            key={videoSrc}
+            key={}
           >
             <source src={videoSrc} type="video/mp4" />
           </video>
